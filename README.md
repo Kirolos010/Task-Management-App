@@ -2,6 +2,12 @@
 
 This is a Laravel-based Task Manager application. Follow these steps to set up the project on your local machine.
 
+## Features
+
+- **User Registration & Login**
+- **Task Management (CRUD)**: Create, read, update, and delete tasks
+- **User-friendly UI**
+
 ## Prerequisites
 
 Ensure you have the following installed:
@@ -13,26 +19,19 @@ Ensure you have the following installed:
 
 ## Installation
 
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/username/repository-name.git
-    cd repository-name
-    ```
-
-2. **Install PHP dependencies via Composer:**
+1. **Install PHP dependencies via Composer:**
 
     ```bash
     composer install
     ```
 
-3. **Copy `.env.example` to create a new `.env` file:**
+2. **Copy `.env.example` to create a new `.env` file:**
 
     ```bash
     cp .env.example .env
     ```
 
-4. **Open `.env` and configure your database settings:**
+3. **Open `.env` and configure your database settings:**
 
     ```env
     DB_CONNECTION=mysql
@@ -43,31 +42,31 @@ Ensure you have the following installed:
     DB_PASSWORD=your_database_password
     ```
 
-5. **Generate an application key:**
+4. **Generate an application key:**
 
     ```bash
     php artisan key:generate
     ```
 
-6. **Run migrations to create the database tables:**
+5. **Run migrations to create the database tables:**
 
     ```bash
     php artisan migrate
     ```
 
-7. **Install frontend dependencies using npm:**
+6. **Install frontend dependencies using npm:**
 
     ```bash
     npm install
     ```
 
-8. **Compile frontend assets:**
+7. **Compile frontend assets:**
 
     ```bash
     npm run dev
     ```
 
-9. **Start the development server:**
+8. **Start the development server:**
 
     ```bash
     php artisan serve
