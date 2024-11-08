@@ -30,12 +30,12 @@ Follow these steps to set up the Laravel project on your local machine.
 - **PHP**: Ensure PHP >= 8.0 is installed
 - **Composer**: Dependency manager for PHP, [get it here](https://getcomposer.org/)
 - **Node.js & npm**: Required for frontend dependencies ([download here](https://nodejs.org/))
-- **Database**: Ensure you have a database (MySQL, PostgreSQL, etc.) installed and configured
+- **Database**: Ensure you have a database (MySQL) installed and configured
 
 ### Steps
 
-1. **Clone the repository**:
+1. **Install PHP dependencies via Composer:**:
 
    ```bash
-   git clone https://github.com/your-username/your-laravel-project.git
-   cd your-laravel-project
+    composer install
+
