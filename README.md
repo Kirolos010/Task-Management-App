@@ -5,6 +5,7 @@ This is a Laravel-based Task Manager application. Follow these steps to set up t
 ## Features
 
 - **User Registration & Login**
+- **Breeze Authentication**
 - **Task Management (CRUD)**: Create, read, update, and delete tasks
 - **User-friendly UI**
 
